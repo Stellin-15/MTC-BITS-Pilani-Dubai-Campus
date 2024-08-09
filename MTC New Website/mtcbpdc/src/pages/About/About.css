@@ -287,36 +287,39 @@
 @media screen and (max-width: 500px) {
 
   .about-page {
-    padding: 10px; /* Add some padding to prevent content from touching the edges */
+    margin-top: 50px; /* Add a top margin to push the content below the navbar */
+    padding: 10px;
   }
 
   .about-image {
     width: 100%;
     height: auto;
-    display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    max-height: 300px;
   }
 
   .about-content {
-    padding: 20px 5%; /* Reduce padding on left and right for smaller screens */
+    padding: 20px 5%;
     background-color: #1e1e1e;
     color: white;
   }
 
   .about-content h1 {
-    font-size: 2.5em; /* Reduce heading size for mobile */
+    font-size: 2.5em;
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
-    border-right: .1em solid white; /* Slightly reduce the cursor width */
+    border-right: .1em solid white;
     white-space: nowrap;
-    animation: typing 3s steps(15, end) infinite, blink .75s step-end infinite; /* Adjust typing speed and steps */
+    animation: typing 3s steps(15, end) infinite, blink .75s step-end infinite;
     display: inline-block;
   }
 
   .about-content p {
-    font-size: 1.2em; /* Reduce paragraph size for mobile */
-    margin-bottom: 20px; /* Adjust spacing between paragraphs */
+    font-size: 1.2em;
+    margin-bottom: 20px;
     font-family: 'Lato', sans-serif;
   }
 
@@ -331,6 +334,9 @@
     50% { border-color: white; }
   }
 }
+
+
+
 
 
 
