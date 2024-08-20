@@ -1,10 +1,9 @@
 {
+  "homepage": "https://Stellin-15.github.io/mtcbpdc_stellin_s_version/",
   "name": "mtcbpdc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://stellin-15.github.io/mtcbpdc_stellin_s_version/",
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
