@@ -122,7 +122,7 @@ const Membership = () => {
                 <input type="text" name="contactNumber" placeholder="Enter your contact number" value={formData.contactNumber} onChange={handleChange} required />
               </div>
             </div>
-            <div className="membership-fee">Membership Fee: 20 AED</div>
+            <div className="membership-fee">Membership Fee: 35 AED</div>
             <button type="submit" className="submit-button">Submit</button>
           </form>
         ) : (
