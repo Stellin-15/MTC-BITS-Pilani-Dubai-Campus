@@ -65,7 +65,7 @@ const About = () => {
               <a href="https://www.linkedin.com/in/aryan-satwani-43a46a211/">
                 <FaLinkedin />
               </a>
-              <a href="https://www.linkedin.com/in/aryan-satwani-43a46a211/">
+              <a href="https://github.com/aryansatwani">
                 <FaGithub />
               </a>
             </div>
@@ -296,7 +296,7 @@ const About = () => {
               <a href="https://www.instagram.com/myshaa.i/">
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/mysha-iqbal-baaa87318/">
+              <a href="https://www.linkedin.com/in/mysha-i-baaa87318/">
                 <FaLinkedin />
               </a>
               <a href="https://github.com/Mysha-BITS">
@@ -368,9 +368,7 @@ const About = () => {
               <a href="https://www.linkedin.com/in/k-ankita-menon-4513b8232/">
                 <FaLinkedin />
               </a>
-              <a href="#">
-                <FaGithub />
-              </a>
+              
             </div>
           </div>
           <div className="member">
@@ -429,7 +427,7 @@ const About = () => {
               <a href="https://www.instagram.com/ameiya.w/">
                 <FaInstagram />
               </a>
-              <a href="https://www.linkedin.com/in/ameiya-wankhede-7600912b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <a href="https://www.linkedin.com/in/ameiya-wankhede-7600912b1">
                 <FaLinkedin />
               </a>
               <a href="https://github.com/aw2106">
@@ -548,14 +546,8 @@ const About = () => {
             <h4>Dr. Elakkiya R.</h4>
             <p>Assistant Professor</p>
             <div className="social-icons">
-              <a href="https://www.instagram.com/mtcbpdc/">
-                <FaInstagram />
-              </a>
               <a href="https://www.linkedin.com/in/dr-elakkiya-r-581884b1/">
                 <FaLinkedin />
-              </a>
-              <a href="#">
-                <FaGithub />
               </a>
             </div>
           </div>
