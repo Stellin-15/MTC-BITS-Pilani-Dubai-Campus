@@ -103,7 +103,7 @@ const Articles = () => {
             <p>Because sometimes, even Mandarin Chinese seems easier. But if you are learning a language like that, then chances are that you are learning it for a reason that might not be just intellectual fulfilment...</p>
             <button
               className="read-more-button green-button"
-              onClick={() => window.location.href = "https://medium.com/@microsofttechclub/should-you-create-your-own-coding-language-123456789"}
+              onClick={() => window.location.href = "https://medium.com/@microsofttechclub/should-you-create-your-own-coding-language-4caa02507346"}
             >
               Read More
             </button>
@@ -116,7 +116,7 @@ const Articles = () => {
             <p>Here’s your answer: It does not. However, there are (hypothetical (for now)) systems that know exactly what they are, and how they came to be...</p>
             <button
               className="read-more-button orange-button"
-              onClick={() => window.location.href = "https://medium.com/@microsofttechclub/does-data-know-that-it-is-data-123456789"}
+              onClick={() => window.location.href = "https://medium.com/@microsofttechclub/does-data-know-that-it-is-data-e913a54714f6"}
             >
               Read More
             </button>

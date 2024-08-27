@@ -1,7 +1,7 @@
 // src/components/Footer/Footer.jsx
 import React from 'react';
 import './Footer.css';
-import { FaTwitter, FaInstagram, FaLinkedin, FaDiscord, FaTiktok } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaDiscord, FaTiktok, FaMedium } from 'react-icons/fa';
 import { RiThreadsFill } from 'react-icons/ri';
 
 const Footer = () => {
@@ -25,6 +25,9 @@ const Footer = () => {
         </a>
         <a href=" https://tiktok.com/@mtcbpdc" target="_blank" rel="noopener noreferrer">
           <FaTiktok className="footer-icon" />
+        </a>
+        <a href="https://medium.com/@microsofttechclub/" target="_blank" rel="noopener noreferrer">
+          <FaMedium className="footer-icon" />
         </a>
       </div>
       <div className="footer-contact">

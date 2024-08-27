@@ -408,9 +408,7 @@ p {
   transition: filter 0.3s ease;
 }
 
-.social-media-card:hover img {
-  filter: blur(5px);
-}
+
 
 .social-media-card .social-media-card-content {
   position: absolute;

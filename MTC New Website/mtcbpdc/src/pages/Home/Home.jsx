@@ -114,19 +114,19 @@ const Home = () => {
         <div className="events-cards">
           <div className="event-card">
             <img src={matlabWorkshopImg} alt="MATLAB Workshop" />
-            <div className="event-card-content" onClick={events}>Read More</div>
+            <div className="event-card-content" onClick={() => window.location.href = "https://www.linkedin.com/posts/microsoft-tech-club_techeducation-techcommunity-studentcommunity-activity-7108388988855484416-VNIv?utm_source=share&utm_medium=member_desktop"}>Read More</div>
           </div>
           <div className="event-card">
             <img src={vsCodeWorkshopImg} alt="VS Code Workshop" />
-            <div className="event-card-content" onClick={events}>Read More</div>
+            <div className="event-card-content" onClick={() => window.location.href = "https://www.instagram.com/p/Czv9N40NEYV/"}>Read More</div>
           </div>
           <div className="event-card">
             <img src={thinkAIImg} alt="Think AI'23" />
-            <div className="event-card-content" onClick={events}>Read More</div>
+            <div className="event-card-content" onClick={() => window.location.href = "https://www.instagram.com/p/C0rSVqlPBpe/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="}>Read More</div>
           </div>
           <div className="event-card">
             <img src={researchTalkImg} alt="Research Talk" />
-            <div className="event-card-content" onClick={events}>Read More</div>
+            <div className="event-card-content" onClick={() => window.location.href = "https://www.linkedin.com/posts/microsoft-tech-club_microsofttechclub-computervision-techinnovation-activity-7143636619009466368-QdG9?utm_source=share&utm_medium=member_desktop"}>Read More</div>
           </div>
         </div>
         <button className="view-all-button" onClick={events}>View All</button>
@@ -136,19 +136,19 @@ const Home = () => {
         <div className="social-media-cards">
           <div className="social-media-card">
             <img src={mythMondayImg} alt="Myth Monday" />
-            <div className="social-media-card-content">Read More</div>
+            
           </div>
           <div className="social-media-card">
             <img src={quizQuestImg} alt="Quiz Quest" />
-            <div className="social-media-card-content">Read More</div>
+            
           </div>
           <div className="social-media-card">
             <img src={tipTuesdayImg} alt="Tip Tuesday" />
-            <div className="social-media-card-content">Read More</div>
+            
           </div>
           <div className="social-media-card">
             <img src={techTribuneImg} alt="Tech Tribune" />
-            <div className="social-media-card-content">Read More</div>
+            
           </div>
         </div>
       </div>
