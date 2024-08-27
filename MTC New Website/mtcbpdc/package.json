@@ -1,12 +1,12 @@
 {
-  "homepage": "https://Stellin-15.github.io/mtcbpdc_stellin_s_version/",
+  "homepage": "https://Stellin-15.github.io/MTC-BITS-Pilani-Dubai-Campus/",
   "name": "mtcbpdc",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "repository": {
   "type": "git",
-  "url": "https://github.com/Stellin-15/mtcbpdc_stellin_s_version.git"
+  "url": "https://github.com/Stellin-15/MTC-BITS-Pilani-Dubai-Campus.git"
 }
 ,
   "scripts": {
