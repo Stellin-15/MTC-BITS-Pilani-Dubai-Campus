@@ -71,29 +71,29 @@ const Membership = () => {
           </ul>
           <p>Ready to Elevate Your Tech Journey?</p>
           <div className="button-container">
-            <button className="register-button" onClick={toggleModal}>Register Now</button>
+            <button className="register-button" onClick={() => window.location.href = "https://forms.gle/F6NgdzjqZCJyRaAe6"}>Register Now</button>
           </div>
         </div>
         <div className="membership-card card-updates">
-  <h3>Sign up for Latest Updates</h3>
-  <h4>Get Early Access</h4>
+  <h3>Membership Renewal</h3>
+  <h4>Membership Benefits Summary</h4>
   <p>
-    Be the first to know about our exciting events—whether it's workshops, competitions, guest speakers, or more! By signing up, you'll:
+  Welcome back! We’re glad you’ve decided to renew your membership with us. Let’s get started! Be the first to know about our exciting events—whether it's workshops, competitions, guest speakers, or more! By signing up, you'll:
   </p>
   <ul>
     <li><b>Exclusive Blog Insights</b></li>
     <li><b>Receive Event Updates</b></li>
     <li><b>Enjoy Member Perks</b></li>
   </ul>
-  <p>Ready to Join the MTC Community?</p>
+  <p>Ready to Join the MTC Community once again?</p>
   <div className="button-container">
     <a
-      href="https://www.linkedin.com/company/microsoft-tech-club/mycompany/"
+      href="https://forms.gle/JuCbSPMFjuFVrjJq8"
       target="_blank"
       rel="noopener noreferrer"
       className="subscribe-button"
     >
-      Follow Us
+      Renew Now
     </a>
   </div>
 </div>
