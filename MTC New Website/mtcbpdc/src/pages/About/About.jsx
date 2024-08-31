@@ -59,7 +59,7 @@ const About = () => {
             <h4>Aryan Satwani</h4>
             <p>Chair</p>
             <div className="social-icons">
-              <a href="https://www.instagram.com/aryan_scc/">
+              <a href="https://www.instagram.com/aryan_satwani/">
                 <FaInstagram />
               </a>
               <a href="https://www.linkedin.com/in/aryan-satwani-43a46a211/">
