@@ -1,13 +1,20 @@
 import React from 'react';
 import './Events.css';
-import vscodeWorkshopImage from '../../assets/vscode_workshop.jpg'; // Import the image for the VS Code Workshop
-import introProgrammingImage from '../../assets/intro_programming.jpg'; // Import the image for the Introduction to Programming event
-import matlabWorkshopImage from '../../assets/matlab_workshop.jpg'; // Import the image for the MATLAB Workshop event
-import vsCodeWorkshopImage from '../../assets/vscode_workshop.jpg'; // Import the image for the VS Code Workshop event
-import typingContestImage from '../../assets/typing_contest.jpg'; // Import the image for the Typing Contest event
-import signQuestImage from '../../assets/signquest.jpg'; // Import the image for the SignQuest event
-import thinkAIImage from '../../assets/thinkai.jpg'; // Import the image for the ThinkAI'23 event
-import speakerSessionImage from '../../assets/speaker_session.jpg'; // Import the image for the Speaker Session with Professor Nick Pears event
+import vscodeWorkshopImage from '../../assets/vscode_workshop.jpg'; 
+import introProgrammingImage from '../../assets/intro_programming.jpg'; 
+import matlabWorkshopImage from '../../assets/matlab_workshop.jpg'; 
+import vsCodeWorkshopImage from '../../assets/vscode_workshop.jpg'; 
+import typingContestImage from '../../assets/typing_contest.jpg'; 
+import signQuestImage from '../../assets/signquest.jpg'; 
+import thinkAIImage from '../../assets/thinkai.jpg'; 
+import speakerSessionImage from '../../assets/speaker_session.jpg';
+import GameWeek from '../../assets/GW-1.jpg';
+import IceBreakers from '../../assets/Icebreakers-1.jpg'; 
+import Orientation from '../../assets/Orientation-5.jpeg';
+import Mediathon from '../../assets/Mediathon.jpeg';
+import DataScience from '../../assets/DataScience.jpg';
+import PowerBI from '../../assets/PowerBI.jpg';
+
 
 const EventCard = () => {
   return (
@@ -34,6 +41,118 @@ const EventCard = () => {
       {/* Past Events Section */}
       <p className="past-event-title">Past Events</p>
       
+      
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">Introduction to Power BI</p>
+          <p className="event-description">
+          The Microsoft Tech Club hosted the second session of its Data Science bootcamp, a brief introduction to Power BI by MTC Outreach Head Joel Joseph. Power BI is a business analytics tool created by Microsoft that enables users to visualize data, create reports, and share insights across their organization. It integrates with various data sources and provides interactive dashboards to help make data-driven decisions. In the workshop, a sample dataset was provided, and participants learned how to create dashboards, reports, how to visualize the data as per their requirements, and how to share them.
+          </p>
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_mtc-webdevelopment-workshops-activity-7240037659786592257-7PZ2?utm_source=share&utm_medium=member_desktop">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={PowerBI} 
+            alt="Power BI"
+          />
+        </div>
+      </div>
+      
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">Introduction to Data Science</p>
+          <p className="event-description">
+          The Microsoft Tech Club hosted the first session of its Data Science bootcamp; it was an introduction to the world of Data Science by MTC Tech Manager Laya Shree Elango. After a brief talk on the significance of data science on daily life, participants were taken on a step by step tutorial of making an algorithm analyzing the chances of employees quitting a company, taking various factors in consideration, on the programming language Python incorporating python libraries such as Pandas, NumPy, Matplotlib and Seaborn.
+          </p>
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_mtc-datascience-microsofttechclub-activity-7239307200475602945-MXF-?utm_source=share&utm_medium=member_desktop">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={DataScience} 
+            alt="DataScience"
+          />
+        </div>
+      </div>
+      
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">MTC x Reflexions Mediathon</p>
+          <p className="event-description">
+          The MTC x Reflexions Mediathon was a week-long event where participants formed teams of 1-4 to create a portfolio website for BPDC. They could use only HTML, CSS, and optionally, JavaScript, and had to use pictures captured around campus during the eligibility period. The website was required to reflect any of the given four themes—Academia, Student Life, Sports, and Nature.
+          </p>
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_bitsdubai-reflexions-mtc-activity-7237496629564497920-3ZJG?utm_source=share&utm_medium=member_desktop">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={Mediathon} 
+            alt="Mediathon"
+          />
+        </div>
+      </div>
+
+      
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">MTC Orientation</p>
+          <p className="event-description">
+          The Microsoft Tech Club hosted an exciting orientation for new members to the club, giving them a valuable insight to how the rest of the year would look like. The session started off with an introduction to all the members of the council and a brief look into Microsoft’s student ambassadorship program which allows first years to get a direct entry to the council, giving them representation and experience in leadership roles. The next segment of the orientation was a thrilling Social Media Hunt where new members had to find clues from the club’s instagram page which led them to the final destination. 
+          </p>
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_fyp-microsofttechclub-bitsdubai-activity-7236759779837128704-T3Wn?utm_source=share&utm_medium=member_desktop">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={Orientation} 
+            alt="Orientation"
+          />
+        </div>
+      </div>
+
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">Icebreakers Day</p>
+          <p className="event-description">
+          The Microsoft Tech Club opened their membership registrations on 29 August, in the Sports Complex. Registrations were available for freshmen, all seniors, and renewals were available for existing members who were interested in retaining their subscription to the club. Council members actively participated in marketing the merits of MTC and the perks that the club had to offer to members, but the MTC stall had its own attractive features which incentivised future members to join with a discounted price .
+          </p>
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_fyp-microsofttechclub-bitsdubai-activity-7235164364851314688-Nt8r?utm_source=share&utm_medium=member_desktop">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={IceBreakers} 
+            alt="IceBreakers"
+          />
+        </div>
+      </div>
+      
+      
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">GameWeek Series</p>
+          <p className="event-description">
+          The Microsoft Tech Club (MTC) hosted its highly anticipated GameWeek Series online throughout August, engaging members in a thrilling competition across three diverse games. The series drew considerable attention and participation, with members eagerly vying for the top spots in a display of wit, observation, and technical acumen.
+          </p>
+          <a href="https://www.instagram.com/p/C-xa_5KSoB5/?igsh=MXNic2xqcGR6ZThvMQ==">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img
+            src={GameWeek} 
+            alt="Game Week"
+          />
+        </div>
+      </div>
+
+
       <div className="event-card past">
         <div className="event-info">
           <p className="event-title">How To Start Programming</p>
