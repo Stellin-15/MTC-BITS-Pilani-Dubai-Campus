@@ -1,7 +1,7 @@
 // src/components/Footer/Footer.jsx
 import React from 'react';
 import './Footer.css';
-import { FaTwitter, FaInstagram, FaLinkedin, FaDiscord, FaTiktok, FaMedium } from 'react-icons/fa';
+import { FaTwitter, FaInstagram, FaLinkedin, FaDiscord, FaTiktok, FaMedium, FaGithub } from 'react-icons/fa';
 import { RiThreadsFill } from 'react-icons/ri';
 
 const Footer = () => {
@@ -11,11 +11,11 @@ const Footer = () => {
         <a href=" https://x.com/mtcbpdc" target="_blank" rel="noopener noreferrer">
           <FaTwitter className="footer-icon" />
         </a>
-        <a href=" https://instagram.com/mtcbpdc" target="_blank" rel="noopener noreferrer">
+        <a href="https://instagram.com/mtcbpdc" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="footer-icon" />
         </a>
-        <a href=" https://discord.gg/VDtpu9kF" target="_blank" rel="noopener noreferrer">
-          <FaDiscord className="footer-icon" />
+        <a href="https://github.com/mtcbpdcdubai" target="_blank" rel="noopener noreferrer">
+          <FaGithub className="footer-icon" />
         </a>
         <a href=" https://www.threads.net/@mtcbpdc" target="_blank" rel="noopener noreferrer">
           <RiThreadsFill className="footer-icon" />
