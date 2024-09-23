@@ -25,9 +25,9 @@ const EventCard = () => {
           <p className="event-title">EXCEL CHAMPIONSHIP</p>
           <p className="event-time">Coming Soon....</p>
           <p className="event-date"></p>
-          <a href="">
+           {/* <a href="">
             <div className="event-button">Register Now</div>
-          </a>
+          </a>*/}
         </div>
         <div className="event-image">
           <img src={excelChampionship} alt="VS Code Workshop" />
