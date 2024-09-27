@@ -8,12 +8,15 @@ import typingContestImage from "../../assets/typing_contest.jpg";
 import signQuestImage from "../../assets/signquest.jpg";
 import thinkAIImage from "../../assets/thinkai.jpg";
 import speakerSessionImage from "../../assets/speaker_session.jpg";
-import GameWeek from "../../assets/GW-1.jpg";
-import IceBreakers from "../../assets/Icebreakers-1.jpg";
-import Orientation from "../../assets/Orientation-5.jpeg";
+import GameWeek from "../../assets/GW-1_new.jpg";
+import IceBreakers from "../../assets/Icebreakers-1_new.jpg"; 
+import Orientation from "../../assets/Orientation-5_new2.jpeg";
 import Mediathon from "../../assets/Mediathon.jpeg";
-import DataScience from "../../assets/DataScience.jpg";
+import DataScience from "../../assets/DataScience_new.jpg";
 import PowerBI from "../../assets/PowerBI.jpg";
+import Timeseries from "../../assets/Timeseries1_new2.jpg";
+
+
 
 const EventCard = () => {
   return (
@@ -37,6 +40,30 @@ const EventCard = () => {
 
       {/* Past Events Section */}
       <p className="past-event-title">Past Events</p>
+
+
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">Time Series Analysis</p>
+          <p className="event-description">
+          The Microsoft Tech Club hosted the final session of their Data Science Bootcamp, 
+          a Time Series EDA workshop, conducted by Events Head Bhavya Kothari and Treasurer Keane Coutinho. 
+          Keane introduced the topic, explaining the types of time series data analysis, its practical 
+          applications, and the components of a time series. Bhavya then demonstrated a matplotlib program 
+          using an electric production dataset, showcasing how to model trends, seasonality, and forecast 
+          patterns. The session ended with a quiz, where Adindy Sharma and Chethan Suresh Devadiga won 
+          LinkedIn Premium as prizes. Participants were encouraged to explore further and start their 
+          own projects.
+          
+          </p>
+          <a href="">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img src={Timeseries} alt="Power BI" />
+        </div>
+      </div>
 
       <div className="event-card past">
         <div className="event-info">
