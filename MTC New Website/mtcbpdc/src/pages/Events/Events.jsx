@@ -56,7 +56,7 @@ const EventCard = () => {
           own projects.
           
           </p>
-          <a href="">
+          <a href="https://www.linkedin.com/posts/microsoft-tech-club_dubai-bitsdubai-datascience-activity-7241436266892840960-AnPx?utm_source=share&utm_medium=member_ios">
             <div className="event-button blue-button">Read More</div>
           </a>
         </div>
