@@ -404,22 +404,6 @@ const About = () => {
             </div>
           </div>
           <div className="member">
-            <img src={marketingMember6} alt="Hana Riyas" />
-            <h4>Hana Riyas</h4>
-            <p>Creative Executive</p>
-            <div className="social-icons">
-              <a href="https://www.instagram.com/hanamubarack/">
-                <FaInstagram />
-              </a>
-              <a href="http://www.linkedin.com/in/hana-riyas">
-                <FaLinkedin />
-              </a>
-              <a href="https://github.com/Hana11-tech">
-                <FaGithub />
-              </a>
-            </div>
-          </div>
-          <div className="member">
             <img src={marketingMember7} alt="Ameyia Wankhede" />
             <h4>Ameyia Wankhede</h4>
             <p>Creative Executive</p>
