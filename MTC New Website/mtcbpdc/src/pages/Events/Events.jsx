@@ -23,11 +23,12 @@ const EventCard = () => {
       <div className="event-card">
         <div className="event-info">
           <p className="event-title">EXCEL CHAMPIONSHIP</p>
-          <p className="event-time">Coming Soon....</p>
-          <p className="event-date"></p>
-           {/* <a href="">
+          <p className="event-time">11:10 AM - 1:50 PM</p>
+          <p className="event-date">OCTOBER 2ND</p>
+           <a href="https://forms.gle/N1jiNEuqEo48NwZ7A">
             <div className="event-button">Register Now</div>
-          </a>*/}
+          </a>
+          <a href="https://linktr.ee/mtcbpdc" className="event-rules">Rules & Regulations</a>
         </div>
         <div className="event-image">
           <img src={excelChampionship} alt="VS Code Workshop" />
