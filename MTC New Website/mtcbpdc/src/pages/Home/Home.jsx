@@ -10,7 +10,7 @@ import icebreakersImg from '../../assets/icebreakers.jpg';
 import btfAksiImg from '../../assets/btf_aksi.jpg';
 import typingContestImg from '../../assets/typing_contest.jpg';
 import signQuestImg from '../../assets/sign_quest.jpg';
-import ambassadorProgramImg from '../../assets/ambassador_program.jpg';
+import ambassadorProgramImg from '../../assets/ambassador_program.jpeg';
 import matlabWorkshopImg from '../../assets/matlab_workshop.jpg';
 import vsCodeWorkshopImg from '../../assets/vscode_workshop.jpg';
 import thinkAIImg from '../../assets/think_ai.jpg';
@@ -107,7 +107,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <button className="Join-Now-button" onClick={() => window.location.href = "https://forms.gle/irvTUisXzDz18VB28"}>Join Now</button>
       </div>
+      
       <div className="events-section">
         <h2>Recent Events</h2>
         <p>Some of our recently conducted events</p>
