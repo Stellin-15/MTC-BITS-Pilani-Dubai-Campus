@@ -10,12 +10,29 @@ import article7Img from '../../assets/article7.jpg';
 import article8Img from '../../assets/article8.jpg';
 import article9Img from '../../assets/article9.jpg';
 import article10Img from '../../assets/article10.jpg';
-
+import article11Img from '../../assets/article11.jpg';
 const Articles = () => {
   return (
     <div className="articles-page">
       <h2>Explore Our Articles</h2>
       <div className="articles-cards">
+      <div className="article-card card-5">
+          <img src={article11Img} alt="Article 11" />
+          <div className="article-content">
+            <h3>I’m not a robot ✅</h3>
+            <p>Cyborgs. The first thing that comes to mind, 
+              is either the DC comics character of the same name
+              you pick which teen titans version, or a nightmare of uncanny 
+              humanoids taking over. Regardless, the idea of such beings living 
+              among us sounds either dystopian or too........</p>
+            <button
+              className="read-more-button purple-button"
+              onClick={() => window.location.href = "https://medium.com/@microsofttechclub/im-not-a-robot-ce570c87f711"}
+            >
+              Read More
+            </button>
+          </div>
+        </div>
         <div className="article-card card-1">
           <img src={article10Img} alt="Article 1" />
           <div className="article-content">
