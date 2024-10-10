@@ -15,8 +15,7 @@ import Mediathon from "../../assets/Mediathon.jpeg";
 import DataScience from "../../assets/DataScience_new.jpg";
 import PowerBI from "../../assets/PowerBI.jpg";
 import Timeseries from "../../assets/Timeseries1_new2.jpg";
-
-
+import Cybersecuritytalk from "../../assets/cybersecuritytalk.jpeg";
 
 const EventCard = () => {
   return (
@@ -25,21 +24,44 @@ const EventCard = () => {
       <p className="upcoming-event-title">Upcoming Event</p>
       <div className="event-card">
         <div className="event-info">
-          <p className="event-title">EXCEL CHAMPIONSHIP</p>
-          <p className="event-time">11:10 AM - 1:50 PM</p>
-          <p className="event-date">OCTOBER 2ND</p>
-           <a href="https://forms.gle/N1jiNEuqEo48NwZ7A">
-            <div className="event-button">Register Now</div>
+        <p className="event-title">Cybersecurity Talk</p>
+          <p className="event-topic">Introduction to Cybersecurity and how to get started in UAE</p>
+          <p className="event-time">6:30 PM</p>
+          <p className="event-date">Friday, 11th October 2024</p>
+           <a href="https://meet.google.com/fgc-uzoc-pzq">
+            <div className="event-button">JOIN MEETING</div>
           </a>
-          <a href="https://linktr.ee/mtcbpdc" className="event-rules">Rules & Regulations</a>
+         
         </div>
         <div className="event-image">
-          <img src={excelChampionship} alt="VS Code Workshop" />
+          <img src={Cybersecuritytalk} alt="Cybersecuritytalk" />
         </div>
       </div>
 
       {/* Past Events Section */}
       <p className="past-event-title">Past Events</p>
+
+
+      <div className="event-card past">
+        <div className="event-info">
+          <p className="event-title">Excel Championship</p>
+          <p className="event-description">
+          MTC's Excel Championship was a 3-hour Microsoft Excel-based time trial covering themes such 
+          as data analysis, financial modeling, and data cleaning, with questions split into easy, medium, 
+          and hard levels, each with different weightage for a total of 100 points. The competition was divided 
+          into three themed sessions: Harry Potter, Marvel, and Uncharted, where participants solved questions related 
+          to each theme, with team support available to clear doubts. The winners for each session were Aaryan Sinha (Session 1), 
+          Aakar Mathur (Session 2), and Sreenikethan Iyer (Session 3).
+          </p>
+          <a href="">
+            <div className="event-button blue-button">Read More</div>
+          </a>
+        </div>
+        <div className="event-image">
+          <img src={excelChampionship} alt="excelChampionship" />
+        </div>
+      </div>
+
 
 
       <div className="event-card past">
@@ -61,7 +83,7 @@ const EventCard = () => {
           </a>
         </div>
         <div className="event-image">
-          <img src={Timeseries} alt="Power BI" />
+          <img src={Timeseries} alt="Timeseries" />
         </div>
       </div>
 

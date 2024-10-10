@@ -89,6 +89,13 @@
     font-weight: 700;
     margin-bottom: 10px;
   }
+
+  .event-topic{
+    font-size: 26px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
   
   .event-description {
     font-size: 18px;
