@@ -1,6 +1,7 @@
 // src/pages/Home/Home.jsx
 import React from 'react';
 import './Home.css';
+import TestimonialSlider from '../../components/Testimonials/TestimonialSlider.jsx';
 import backgroundImage from '../../assets/b2.jpg';
 import workshopsImg from '../../assets/workshops.jpg';
 import speakerSessionsImg from '../../assets/speaker_sessions.jpg';
@@ -20,7 +21,6 @@ import quizQuestImg from '../../assets/quiz_quest.jpg';
 import tipTuesdayImg from '../../assets/tip_tuesday.jpg';
 import techTribuneImg from '../../assets/tech_tribune.jpg';
 import { useNavigate } from 'react-router-dom';
-
 
 const Home = () => {
   const navigate = useNavigate();
@@ -110,6 +110,8 @@ const Home = () => {
         <button className="Join-Now-button" onClick={() => window.location.href = "https://forms.gle/irvTUisXzDz18VB28"}>Join Now</button>
       </div>
       
+      <TestimonialSlider />
+
       <div className="events-section">
         <h2>Recent Events</h2>
         <p>Some of our recently conducted events</p>
@@ -133,6 +135,9 @@ const Home = () => {
         </div>
         <button className="view-all-button" onClick={events}>View All</button>
       </div>
+
+
+
       <div className="social-media-section">
         <h2>Stay ahead in the tech world with MTC's dynamic social media lineup!</h2>
         <div className="social-media-cards">

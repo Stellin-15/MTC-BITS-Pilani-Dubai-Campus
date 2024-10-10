@@ -296,7 +296,7 @@ p {
   opacity: 0;
   transition: opacity 0.3s ease;
   text-align: center;
-}
+} 
 
 .event-card:hover .event-card-content {
   opacity: 1;
@@ -452,6 +452,8 @@ p {
 .social-media-card:hover .social-media-card-content {
   opacity: 1;
 }
+
+
 
 /* Mobile CSS */
 
